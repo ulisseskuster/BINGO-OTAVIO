@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bingo Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>BINGO</h1>
+    </header>
+
+    <main>
+        <div class="card-section">
+            <h2>Cartelas</h2>
+            <div class="card-buttons">
+                <button id="add-card-button">Adicionar Jogador</button>
+                <button id="reset-button">Reiniciar</button>
+            </div>
+            <div id="card-container"></div>
+        </div>
+
+        <div class="draw-section">
+            <h2>Sorteio dos números</h2>
+            <div id="bingo-numbers"></div>
+            <div id="message-container"></div>
+            <button id="play-button" disabled>Jogar</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
